@@ -1,12 +1,15 @@
 """Emergency Response Simulation"""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 # import modules
 import heapq
 import random
 import scipy.stats as sts
 import numpy as np
+import networkx as nx
+import matplotlib  
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
 class Event:
